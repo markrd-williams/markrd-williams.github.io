@@ -1,0 +1,152 @@
+@import 'reset';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$header-font: Montserrat, sans-serif;
+$body-font: serif;
+
+body {
+  font-family: $body-font;
+  line-height: 1.2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #bbb;
+  border-color: #bbb;
+  border-top: 0;
+}
+
+h1, h2, h3 {
+  font-family: $header-font;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  padding-bottom: 0.5rem;
+}
+
+em {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #c63939;
+}
+
+a:hover{
+  color: black;
+}
+
+ul, ol {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+
+  li {
+    margin-left: 1rem;
+    padding-top: 0.25rem;
+  }
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+nav {
+  height: 3rem;
+
+  margin: auto;
+  max-width: 80%;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    font-family: $header-font;
+  }
+
+  .links {
+    a {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+main {
+  max-width: 60%;
+  width: 60%;
+  margin: auto;
+  flex: 1;
+}
+
+
+.post {
+   h3 {
+     color: gray;
+     padding-bottom: 1.5rem;
+   }
+}
+
+.post-list {
+  h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  li {
+    list-style-type: none;
+  }
+}
+
+
+.me {
+  float: left;
+  width: 250px;
+  margin: .5rem;
+}
+
+.kitty {
+  float: right;
+  width: 250px;
+  margin: .5rem;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #e3e3e3;
+}
