@@ -30,8 +30,9 @@ title: CV
   - Taught synthetic homotopy theory. See the notes [here](https://ulrikbuchholtz.dk/mgs2024-synthetic-homotopy-theory.pdf).
 - Teaching Assistant at UoN
   - COMP1043 - Mathematics for Computer Science 2 (Spring 2024)
-  - COMP2012 - Languages and Computation (Spring 2024)
-
+  - COMP2012 - Languages and Computation (Spring 2024, Spring 2025)
+  - COMP2065 - Introduction to Formal Logic (Autumn 2025)
 
 ## Conferences Attended
-- [4th Synthetic Algebraic Geometry Workshop](https://felix-cherubini.de/sag-meeting-4.html)
+- [4th Synthetic Algebraic Geometry Workshop](https://felix-cherubini.de/sag-meeting-4.html).
+- [PSSL 109](https://dutchcats.github.io/PSSL-2024/).

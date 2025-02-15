@@ -65,6 +65,7 @@ a:hover{
 ul, ol {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
+  display:table;
 
   li {
     margin-left: 1rem;
@@ -132,6 +133,7 @@ main {
   float: left;
   width: 250px;
   margin: .5rem;
+  margin-right: 1rem;
 }
 
 .kitty {
