@@ -119,6 +119,14 @@ input:not([type="checkbox"]) {
     gap: 1ch;
 }
 
+
+.form-submission {
+    display: flex;
+    justify-self: end;
+    gap: 12px;
+    align-items: center;
+}
+
 .form-button {
     grid-column: 1 / -1;
     justify-self: end;
