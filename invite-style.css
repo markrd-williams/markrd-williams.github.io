@@ -76,31 +76,8 @@ label {
     text-box-edge: cap alphabetic;
 }
 
-/* Opening */
-#opening {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-
-    background-color: var(--surface-0);
-}
-
-/* Details */
-
-#details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-
-    background-color: var(--surface-1);
-}
 
 /* RSVP Form */
-
 #rsvp {
     display: flex;
     flex-direction: column;
@@ -136,7 +113,7 @@ input:not([type="checkbox"]) {
     min-width: 0;
 }
 
-.form-group:has(input[type="checkbox"]) {
+.form-group:has(input[type="radio"]) {
     grid-column: 1 / -1;
     display: flex;
     gap: 1ch;
@@ -153,11 +130,15 @@ input:not([type="checkbox"]) {
     gap: 0.5cap;
 }
 
-.camping-group {
+#additional_names_field {
     display: none;
 }
 
 /* Show camping details */
-.rsvp-form:has(#camping-yes:checked) .camping-group {
+.rsvp-form:has(#attending-no:checked) #additional_names_field {
     display: block;
+}
+
+.form-helper {
+		display: none;
 }
