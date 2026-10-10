@@ -30,7 +30,12 @@
 body { 
     font-family: Averia, cursive;
 
-    background-color: var(--surface-0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--surface-2);
     color: var(--text-1);
 }
 
@@ -79,13 +84,7 @@ label {
 
 /* RSVP Form */
 #rsvp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-
-    background-color: var(--surface-2);
+    
 }
 
 .rsvp-container {
@@ -123,7 +122,6 @@ input:not([type="checkbox"]) {
 .form-submission {
     display: flex;
     justify-self: end;
-    gap: 12px;
     align-items: center;
 }
 
