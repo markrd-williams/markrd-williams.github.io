@@ -9,6 +9,7 @@ title: Research
 
 ## Talks
 
+- [Projective Presentations of Lex Modalities](https://www.youtube.com/watch?v=8z5JYtNDZF8). April 2025.
 - [Presentations for Topological Modalities](assets/docs/pres_PSSL.pdf) at [PSSL 109](https://dutchcats.github.io/PSSL-2024/). 
   November 15-19th 2025.
 - [Intro to Synthetic Algebraic Geometry](assets/docs/AlgGeomTalk.pdf) at [FP Lunch](https://fplunchnott.wordpress.com). 
