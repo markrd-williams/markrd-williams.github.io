@@ -43,7 +43,11 @@ h1 {
     font-family: GoudyMediaeval;
     font-size: 4rem;
     font-weight: 300;
-    line-height: 1.5;
+    gap: 0rem;
+}
+
+.title {
+  text-align:center;
 }
 
 a {
@@ -79,12 +83,6 @@ button {
 label {
     text-box-trim: trim-both;
     text-box-edge: cap alphabetic;
-}
-
-
-/* RSVP Form */
-#rsvp {
-    
 }
 
 .rsvp-container {
@@ -147,4 +145,17 @@ input:not([type="checkbox"]) {
 
 .form-helper {
 		display: none;
+}
+
+@media only screen and (max-width: 576px) {
+   h1 { 
+      font-size: 3rem; 
+   }
+
+   .rsvp-container {
+        padding: 0.5rem;
+        width: min(100% - 1rem, 1200px);
+
+   }
+
 }
