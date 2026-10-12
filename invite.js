@@ -27,6 +27,6 @@ form.addEventListener("submit", async (e) => {
       status.textContent = "Sorry, something went wrong!"
     })
 
-  
+  button.disabled = false;
 })
 
